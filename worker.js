@@ -17,7 +17,9 @@ const ERLAUBT = [
 
 const SPIELE = {
   jagd:  { kleinerIstBesser: false, max: 1000000 },
+  ritt:  { kleinerIstBesser: false, max: 200000 },
   duell: { kleinerIstBesser: true,  max: 5000 }
+   
 };
 
 export default {
